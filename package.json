@@ -1,0 +1,33 @@
+{
+  "name": "react-dwell-detector",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "README.md",
+    "index.js",
+    "lib/"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src/ -d lib --ignore '**/*.test.js'",
+    "test": "jest"
+  },
+  "author": "willsears",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "react-test-renderer": "^16.8.6"
+  }
+}
